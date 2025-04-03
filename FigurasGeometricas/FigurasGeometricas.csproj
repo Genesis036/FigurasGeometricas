@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Circulo.cs" />
     <Compile Include="Figura.cs" />
+    <Compile Include="FiguraFactory.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
