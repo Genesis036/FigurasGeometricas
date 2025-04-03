@@ -47,8 +47,8 @@ namespace Figuras_Geometricas
                 panel1.Invalidate();
 
                 // Incrementar contador y actualizar el TextBox
-                /*   int numero = int.Parse(txtContador.Text) + 1;
-                   txtContador.Text = txtContador.ToString(); */
+                  int numero = int.Parse(txtContador.Text) + 1;
+                   txtContador.Text = numero.ToString(); 
             }
             catch (Exception ex)
             {
